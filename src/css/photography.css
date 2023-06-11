@@ -18,10 +18,11 @@
   align-items: center;
   height: 100vh;
   background-color: #000000;
+  
 }
 
 .container {
-  background-color:#f9bc60;
+  background-color:#7f5af0;
   padding: 20px;
   width: 20%;
   height: 50%;
@@ -33,24 +34,33 @@
   justify-content: center;
 }
 
+
 .loginviaa h1 {
-  color: #001e1d;
+  color: #000000;
 }
+
 
 .radiobuttons {
   margin-bottom: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-left: 30%;
   align-items: center;
+  
 }
 
 .radio-optionu {
   margin-bottom: 0.25rem;
   font-weight: bold;
+  margin-left: -3.5rem;
+  margin-right: 1.75rem
 }
 
 .radio-option input[type="radio"] {
   transform: scale(1.5);
+  margin-left: -0.5rem;
+  margin-right: 0.5rem;
+  
 }
 
 .radio-option label {
@@ -62,9 +72,19 @@
 
 .radio-optionu input[type="radio"] {
   transform: scale(1.5);
+  margin-left: 0.25rem;
+  margin-right: 0.5rem;
 }
 .input-container input[type="text"]{
   width: 50%;
+  /* padding: 1rem; */
+  width: 80%;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  
 }
 
 .radio-optionu label {
@@ -81,17 +101,23 @@
   align-items: center;
   margin-bottom: 1rem;
   color: #000000;
+  align-items: flex-start;
+  margin-left: 15%;
+  
 }
 
 .input-container label {
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .button-container {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+  align-items: center;
+  margin-right: 0.75rem;
   
 }
 
@@ -99,12 +125,12 @@ button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   border-radius: 4px;
-  background-color: #0066ff;
+  background-color: #ff8906;
   color: #000000;
   border: none;
   cursor: pointer;
   align-items: center;
-  margin-right: 13%;
+  
 }
 
 

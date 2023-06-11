@@ -20,6 +20,7 @@
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: bold;
+    margin-left: -4px;
   }
   
   .tname-container {
@@ -42,11 +43,26 @@
   }
   
   .tname-container input[type="text"] {
-    margin-left: 8px;
+    margin-left: 3px;
+    width: 80%;
+    padding: 0.5rem 0.25rem;
+    outline: none;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
   }
-  
+  .nameusn{
+    font-size: 65%;
+    text-decoration: underline;
+  }
   .tusn-container input[type="text"] {
     margin-left: 8px;
+    width: 80%;
+    padding: 0.5rem 0.5rem;
+    outline: none;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
   }
   
   .tusn-container label {

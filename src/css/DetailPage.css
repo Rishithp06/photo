@@ -8,12 +8,18 @@
     width: 100%;
     background-color: black;
   }
+  .enter{
+    font-size: 75%;
+    color:black;
+    
+    
+  }
   
   .centered-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#f9bc60;
+    background-color:#7f5af0;
     padding: 20px;
   }
   
@@ -43,10 +49,22 @@
   
   .name-container input[type="text"] {
     margin-left: 8px;
+    width: 80%;
+    padding: 0.5rem 0.5rem;
+    outline: none;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
   }
   
   .usn-container input[type="text"] {
     margin-left: 14px;
+    width: 80%;
+    padding: 0.5rem 0.5rem;
+    outline: none;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
   }
   
   .usn-container label {
@@ -62,7 +80,7 @@
     font-size: 1rem;
     margin-left: 25px;
     border-radius: 4px;
-    background-color: #0066ff;
+    background-color: #ff8906;
     color: #fff;
     border: none;
     cursor: pointer;

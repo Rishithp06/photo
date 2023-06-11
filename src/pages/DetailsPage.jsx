@@ -1,14 +1,18 @@
 import React, { useState } from "react";
 import "../css/DetailPage.css";
+import { useNavigate } from "react-router-dom";
 
 function DetailsPage() {
   const [name, setName] = useState("");
   const [usn, setUsn] = useState("");
-
+  const navigate = useNavigate();
   const handleClick = async (e) => {
+    
+    console.log("Name:", name);
+    console.log("USN:", usn);
     // Perform login logic here
     // Redirect to another page
-    window.location.href = "/EventPage";
+    navigate("/EventPage", { state: {} });
   };
 
   const handleNameChange = (e) => {
@@ -22,6 +26,9 @@ function DetailsPage() {
   return (
     <div className="details">
       <div className="centered-container">
+        <div className="enter">
+          <h1>Enter NAME and USN</h1>
+        </div>
         <div className="name-container">
           <label htmlFor="name">NAME</label>
           <input type="text" id="name" value={name} onChange={handleNameChange} />
